@@ -26,7 +26,7 @@ const func: DeployFunction = async (hre: HardhatRuntimeEnvironmentExtended) => {
 
     // paste in your front-end address here to get 10 balloons on deploy:
     await balloons.transfer(
-        "0x08C01CEc8B8c793D768f502b604113074CE212aD",
+        "0xa31645F2d789F87fDD29CCB801507FEa414c838b",
         "" + 10 * 10 ** 18
     );
 
